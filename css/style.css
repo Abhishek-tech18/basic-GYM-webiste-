@@ -1,0 +1,113 @@
+
+body {
+    background: url('https://cdn.pixabay.com/photo/2016/05/14/03/24/girl-in-the-gym-1391368_960_720.jpg');
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 55px;
+    top: -10px;
+   /* border: 2px solid red; */
+}
+
+.left div{
+    text-align: center;
+    line-height: 12px;
+    font-size: 140%;
+    margin-top: -25px;
+    color: white;
+}
+
+.left img{
+  width: 120px;
+  filter: invert(90%);
+  margin-left: 17px;
+}
+
+.mid {
+    display: block;
+    width: 43%;
+    margin: -20px auto ;
+    /* border: 2px solid green; */
+}
+.right {
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.Navbar {
+ display: inline-block;
+}
+
+.Navbar li{
+    display: inline-block;
+    
+    font-size: 20px;
+}
+
+.Navbar li a{
+    display: inline-block;
+    color: white;
+    padding: 34px 23px;
+    text-decoration: none;
+}
+.Navbar li a:hover{
+    color : grey;
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey ;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(89, 88, 88);
+}
+
+.container {
+    
+    margin: 90px -10px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 6px auto;
+    font-size: 17px;
+    border-radius: 6px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container h1{
+ text-align: center;
+}
+.container button {
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
